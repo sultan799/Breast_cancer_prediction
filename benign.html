@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+    
+		body{
+			background:rgb(252, 101, 101);
+            
+		}
+        #result{
+            background-color:aliceblue;
+            border: 2px solid white;
+            color: red;
+           
+        }
+        h2,p,h3{
+            text-decoration-color: aliceblue;
+        }
+		</style>
+    </head>
+    <body>
+        <center>
+            {%if output==1 %}
+            <h2 id="result">You are suffering from Benign</h2>
+            
+            {%else%}
+            <h2 id="result">You are suffering from Malignant</h2>
+            {%endif%}
+            <br>
+        </center>
+        <h2>
+            Treatment<br>
+            </h2>
+            <h3>
+            Treatment will depend on several factors, including:<br>
+            </h3>
+            <ul>
+                <li>the type and stage of the cancer</li>
+                <li>the person’s sensitivity to hormones</li>
+                <li>the age, overall health, and preferences of the individual</li>
+            </ul><br>
+            <h3>The main treatment options include:</h3>
+            <ul>
+                <li>radiation therapy</li>
+                <li>surgery</li>
+                <li>biological therapy, or targeted drug therapy</li>
+                <li>hormone therapy</li>
+                <li>chemotherapy</li>
+            </ul><br>
+            <p>
+             Note:Factors affecting the type of treatment a person has will include the stage of the cancer, other medical conditions, and their individual preference.
+            </p><br>
+            <center><a href='/'>go back to home page</a></center>
+    </body>
+</html>
