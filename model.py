@@ -3,8 +3,8 @@
 import numpy as np
 import pandas as pd
 import sklearn.datasets
-import matplotlib.pyplot as plt
-import seaborn as sbn
+#import matplotlib.pyplot as plt
+#import seaborn as sbn
 import pickle
 
 #collecting dataset
